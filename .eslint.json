@@ -1,0 +1,25 @@
+{
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2019
+  },
+  "env": {
+    "browser": false,
+    "node": true,
+    "commonjs": true
+  },
+  "extends": ["plugin:prettier/recommended"],
+  "rules": {
+    "no-case-declarations": "off",
+    "no-inner-declarations": "off",
+    "no-return-await": "off"
+  },
+  "settings": {
+    "import/extensions": [".ts", ".d.ts"],
+    "import/external-module-folders": [
+      "node_modules",
+      "node_modules/@types",
+      "node_modules/**/types"
+    ]
+  }
+}

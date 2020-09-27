@@ -1,0 +1,58 @@
+# Logs
+**/yarn-debug.log*
+**/yarn-error.log*
+**/npm-debug.log*
+**/*.log
+**/logs
+
+# Runtime data
+**/*.pid.lock
+**/*.seed
+**/*.pid
+**/pids
+
+# Dependency directories
+**/node_modules
+
+# IDE config directories
+**/.idea
+
+# Optional eslint cache
+**/.eslintcache
+
+# Desktop Service Store
+**/.DS_Store
+
+# Optional npm cache directory
+**/.npm
+
+# Optional REPL history
+**/.node_repl_history
+
+# Output of 'npm pack'
+**/*.tgz
+
+# Dotenv environment variables file
+**/.env.development.local
+**/.env.production.local
+**/.env.test.local
+**/.env.local
+**/.env
+
+# Compiled packages
+**/build
+**/dist
+**/lib
+
+# Test coverage directories
+**/.nyc_output
+**/coverage
+**/lib-cov
+
+# Next.js build output
+**/.next
+
+# Client
+**/localization-csvs
+**/.pnp
+**/.pnp.js
